@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaratedev\Billing\Conekta\Tests;
+namespace JJE\Billing\Conekta\Tests;
 
 use PHPUnit\Framework\TestCase;
 

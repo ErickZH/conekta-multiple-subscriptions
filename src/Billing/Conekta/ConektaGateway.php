@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaratedev\Billing\Conekta;
+namespace JJE\Billing\Conekta;
 
 class ConektaGateway
 {
