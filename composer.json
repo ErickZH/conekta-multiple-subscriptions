@@ -1,0 +1,26 @@
+{
+    "name": "zaratedev/conekta-multiple-subscriptions",
+    "description": "Create multiple subscriptions for a single customer using Conekta PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Zarate",
+            "email": "zaratedev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zaratedev\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zaratedev\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
