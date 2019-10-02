@@ -4,9 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af4e4a6769b49861fea095fce192fc23",
+    "content-hash": "eba5899b571ab3c79c663b09d6de7ec4",
     "packages": [],
     "packages-dev": [
+        {
+            "name": "conekta/conekta-php",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conekta/conekta-php.git",
+                "reference": "585d29341ad8a398800856ae41904c11914cbae0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/conekta/conekta-php/zipball/585d29341ad8a398800856ae41904c11914cbae0",
+                "reference": "585d29341ad8a398800856ae41904c11914cbae0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/Conekta/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Conekta  and contributors",
+                    "homepage": "https://github.com/conekta/conekta-php/contributors"
+                }
+            ],
+            "description": "Conekta PHP Library",
+            "homepage": "https://www.conekta.io/",
+            "keywords": [
+                "api",
+                "conekta",
+                "payment processing"
+            ],
+            "time": "2018-07-11T17:03:55+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.2.0",
