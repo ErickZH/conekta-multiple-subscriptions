@@ -16,9 +16,9 @@ class ConektaGateway
     /**
      * ConektaGateway constructor.
      *
-     * @param  string  $apiSecret
-     * @param  string  $apiVersion
-     * @param  string  $locale
+     * @param string $apiSecret
+     * @param string $apiVersion
+     * @param string $locale
      */
     public function __construct(string $apiSecret, string $apiVersion, string $locale = 'es')
     {
