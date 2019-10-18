@@ -30,4 +30,30 @@ class ConektaGateway
         \Conekta\Conekta::setApiVersion($apiVersion);
         \Conekta\Conekta::setLocale($locale);
     }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Customers
+    |--------------------------------------------------------------------------
+    */
+
+    /**
+     * Create a new customer in Conekta.
+     *
+     * @link https://developers.conekta.com/api?language=php#create-customer
+     *
+     * @param  string  $name
+     * @param  string  $email
+     * @return array
+     */
+    public function createCustomer(string $name, string $email)
+    {
+        $conektaCustomer = \Conekta\Customer::create(compact('name', 'email'));
+
+        return [
+            'id' => $conektaCustomer->id,
+            'name' => $conektaCustomer->name,
+            'email' => $conektaCustomer->email,
+        ];
+    }
 }

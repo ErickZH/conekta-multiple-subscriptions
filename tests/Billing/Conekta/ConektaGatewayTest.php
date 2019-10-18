@@ -11,4 +11,10 @@ class ConektaGatewayTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    /** @test */
+    public function it_create_a_new_customer()
+    {
+        $this->assertTrue(true);
+    }
 }
